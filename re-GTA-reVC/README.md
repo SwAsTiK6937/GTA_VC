@@ -108,7 +108,7 @@ Microsoft recently discontinued its downloads of the DX9 SDK. You can download a
 
 > :information_source: premake has an `--with-lto` option if you want the project to be compiled with Link Time Optimization.
 
-> :information_source: There are various settings in [config.h], you may want to take a look there.
+> :information_source: There are various settings in config.h, you may want to take a look there.
 
 > :information_source: reVC uses completely homebrew RenderWare-replacement rendering engine; [librw](https://github.com/aap/librw/). librw comes as submodule of re3, but you also can use LIBRW enviorenment variable to specify path to your own librw.
 
