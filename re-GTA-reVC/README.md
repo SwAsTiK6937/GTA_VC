@@ -1,18 +1,18 @@
-<img src="https://github.com/Jai-JAP/re-GTA/blob/reVC/res/images/logo_1024.png?raw=true" alt="reVC logo" width="200">
+
 
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FJai-JAP%2Fre-GTA%2Fbadge%3Fref%3DreVC&style=flat)](https://actions-badge.atrox.dev/Jai-JAP/re-GTA/goto?ref=reVC)
 <a href="https://discord.gg/RFNbjsUMGg"><img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" /></a>
 
 ## Intro
 
-In this repository you'll find the fully reversed source code for GTA III ([re3](https://github.com/Jai-JAP/re-GTA/tree/re3) branch) and GTA VC ([reVC](https://github.com/Jai-JAP/re-GTA/tree/reVC) branch).
+In this repository you'll find the fully reversed source code for GTA Vice CIty 
 
 It has been tested and works on Windows, Linux, MacOS and FreeBSD, on x86, amd64, arm and arm64.\
 Rendering is handled either by original RenderWare (D3D8)
 or the reimplementation [librw](https://github.com/aap/librw) (D3D9, OpenGL 2.1 or above, OpenGL ES 2.0 or above).\
 Audio is done with MSS (using dlls from original GTA) or OpenAL.
 
-We cannot build for PS2 or Xbox yet. If you're interested in doing so, get in touch with us.
+I cannot build for PS2 or Xbox yet. If you're interested in doing so, get in touch with me.
 
 ## Installation
 
@@ -156,36 +156,6 @@ We accept only these kinds of PRs;
 We have a [Coding Style](https://github.com/Jai-JAP/re-GTA/blob/reVC/CODING_STYLE.md) document that isn't followed or enforced very well.
 
 Do not use features from C++11 or later.
-
-
-## History
-
-re3 was started sometime in the spring of 2018,
-initially as a way to test reversed collision and physics code
-inside the game.
-This was done by replacing single functions of the game
-with their reversed counterparts using a dll.
-
-After a bit of work the project lay dormant for about a year
-and was picked up again and pushed to github in May 2019.
-At the time I (aap) had reversed around 10k lines of code and estimated
-the final game to have around 200-250k.
-Others quickly joined the effort (Fire_Head, shfil, erorcun and Nick007J
-in time order, and Serge a bit later) and we made very quick progress
-throughout the summer of 2019
-after which the pace slowed down a bit.
-
-Due to everyone staying home during the start of the Corona pandemic
-everybody had a lot of time to work on re3 again and
-we finally got a standalone exe in April 2020 (around 180k lines by then).
-
-After the initial excitement and fixing and polishing the code further,
-reVC was started in early May 2020 by starting from re3 code,
-not by starting from scratch replacing functions with a dll.
-After a few months of mostly steady progress we considered reVC
-finished in December.
-
-Since then we have started reLCS, which is currently work in progress.
 
 
 ## License
