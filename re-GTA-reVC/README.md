@@ -1,8 +1,5 @@
 
 
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FJai-JAP%2Fre-GTA%2Fbadge%3Fref%3DreVC&style=flat)](https://actions-badge.atrox.dev/Jai-JAP/re-GTA/goto?ref=reVC)
-<a href="https://discord.gg/RFNbjsUMGg"><img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" /></a>
-
 ## Intro
 
 In this repository you'll find the fully reversed source code for GTA Vice CIty 
