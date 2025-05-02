@@ -65,7 +65,6 @@ The following things would be nice to have/do:
 
 * Fix physics for high FPS
 * Improve performance on lower end devices, especially the OpenGL layer on the Raspberry Pi (if you have experience with this, please get in touch)
-* [PS2 port](https://github.com/GTAmodding/re3/wiki/PS2-port)
 * Xbox port (not quite as important)
 * reverse remaining unused/debug functions
 * compare CodeWarrior build with original binary for more accurate code (very tedious)
@@ -84,15 +83,7 @@ Sorry for the inconvenience.
 
 When using premake, you may want to point GTA_VC_RE_DIR environment variable to GTA Vice City root folder if you want the executable to be moved there via post-build script.
 
-Clone the repository with `git clone --recursive -b reVC https://github.com/Jai-JAP/re-GTA.git reVC`. Then `cd reVC` into the cloned repository.
 
-<details><summary>Linux Premake</summary>
-
-For Linux using premake, proceed: [Building on Linux](https://github.com/GTAmodding/re3/wiki/Building-on-Linux)
-
-</details>
-
-<details><summary>Linux Conan</summary>
 
 Install python and conan, and then run build.
 ```
@@ -102,19 +93,7 @@ cd build
 conan install .. reVC/master@ -if build -o reVC:audio=openal -o librw:platform=gl3 -o librw:gl3_gfxlib=glfw --build missing -s reVC:build_type=RelWithDebInfo -s librw:build_type=RelWithDebInfo
 conan build .. -if build -bf build -pf package
 ```
-</details>
 
-<details><summary>MacOS Premake</summary>
-
-For MacOS using premake, proceed: [Building on MacOS](https://github.com/GTAmodding/re3/wiki/Building-on-MacOS)
-
-</details>
-
-<details><summary>FreeBSD</summary>
-
-For FreeBSD using premake, proceed: [Building on FreeBSD](https://github.com/GTAmodding/re3/wiki/Building-on-FreeBSD)
-
-</details>
 
 <details><summary>Windows</summary>
 
@@ -150,7 +129,6 @@ We accept only these kinds of PRs;
 - Translation fixes, for languages original game supported
 - Code that increase maintainability  
 
-We have a [Coding Style](https://github.com/Jai-JAP/re-GTA/blob/reVC/CODING_STYLE.md) document that isn't followed or enforced very well.
 
 Do not use features from C++11 or later.
 
